@@ -26,7 +26,7 @@ def maximum_profit(price):
 
 maximum_profit(price=[7,6,4,3,10])
 
-# solution 2
+
 # Solution2
 def maxProfit(prices):
     maxp = 0
