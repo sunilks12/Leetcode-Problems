@@ -1,3 +1,3 @@
 # Leetcode-Problems
 
-Feel free to check soultions for leetcode problems
+Feel free to check out my soultions for leetcode problems
