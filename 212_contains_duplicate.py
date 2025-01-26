@@ -16,3 +16,24 @@ class Solution:
                 if nums[i]==nums[j]:
                     return True
 
+class Solution:
+    def hasDuplicate(self, nums: List[int]) -> bool:
+        lst=set(nums)
+        if len(lst)==len(nums):
+            return False
+        else:
+            return True
+
+class Solution:
+    def hasDuplicate(self, nums: List[int]) -> bool:
+        h_map={}
+        for i in nums:
+            if i in h_map:
+                h_map[i]=h_map[i]+1
+                if h_map[i]>1:
+                    return True
+            else:
+                h_map[i]=1
+        return False
+
+
